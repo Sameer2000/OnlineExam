@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+<tiles-definitions>
+    <definition name="user.base.definition"
+        template="/WEB-INF/views/template/Layout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/views/template/header.jsp" />
+        <put-attribute name="sidebar" value="/WEB-INF/views/template/sidebar.jsp"/>
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/template/footer.jsp" />
+    </definition>
+ 
+    <definition name="guest_home" extends="user.base.definition">
+    	<put-attribute name="title" value="Home" />
+    	<put-attribute name="body" value="/WEB-INF/views/client/home.jsp" />
+    </definition>
+    
+    <definition name="guest_student_login" extends="user.base.definition">
+    	<put-attribute name="title" value="Student Login" />
+    	<put-attribute name="body" value="/WEB-INF/views/client/studentLogin.jsp" />
+    </definition>
+    
+    <definition name="guest_institute" extends="user.base.definition">
+    	<put-attribute name="title" value="Insitute" />
+    	<put-attribute name="sidebar" value="/WEB-INF/views/template/userSidebar.jsp"/>
+    	<put-attribute name="body" value="/WEB-INF/views/client/institute.jsp" />
+    </definition>
+    
+    <definition name="guest_contact" extends="user.base.definition">
+    	<put-attribute name="title" value="Contact" />
+    	<put-attribute name="body" value="/WEB-INF/views/client/contact.jsp" />
+    </definition>
+    
+    
+    <definition name="institute_student_list" extends="user.base.definition">
+    	<put-attribute name="title" value="Student List" />
+    	<put-attribute name="sidebar" value="/WEB-INF/views/template/userSidebar.jsp"/>
+    	<put-attribute name="body" value="/WEB-INF/views/student/student_list.jsp" />
+    </definition>
+    
+    <definition name="institute_student_exam" extends="user.base.definition">
+    	<put-attribute name="title" value="Student Exam" />
+    	<put-attribute name="sidebar" value="/WEB-INF/views/template/userSidebar.jsp"/>
+    	<put-attribute name="body" value="/WEB-INF/views/student/student_exam.jsp" />
+    </definition>
+    
+    <definition name="institute_student_registration" extends="user.base.definition">
+    	<put-attribute name="title" value="Student Registration" />
+    	<put-attribute name="sidebar" value="/WEB-INF/views/template/userSidebar.jsp"/>
+    	<put-attribute name="body" value="/WEB-INF/views/student/student_registration.jsp" />
+    </definition>
+
+</tiles-definitions>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="institute.base.definition" template="/WEB-INF/views/template/Layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/template/header.jsp" />
+		<put-attribute name="sidebar"
+			value="/WEB-INF/views/template/sidebar.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/template/footer.jsp" />
+	</definition>
+
+	<definition name="institute_home" extends="institute.base.definition">
+		<put-attribute name="title" value="Institute Home" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/template/instituteHeader.jsp" />
+		<put-attribute name="sidebar" value="/WEB-INF/views/template/userSidebar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/views/institute/institute.jsp" />
+	</definition>
+	
+	<definition name="institute_student_list" extends="institute.base.definition">
+		<put-attribute name="title" value="Student List" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/template/instituteHeader.jsp" />
+		<put-attribute name="sidebar" value="/WEB-INF/views/template/userSidebar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/views/institute/student_list.jsp" />
+	</definition>
+	
+	<definition name="institute_student-registration" extends="institute.base.definition">
+		<put-attribute name="title" value="Student List" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/template/instituteHeader.jsp" />
+		<put-attribute name="sidebar" value="/WEB-INF/views/template/userSidebar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/views/institute/student_registration.jsp" />
+	</definition>
+	
+	<definition name="institute_student_exam" extends="institute.base.definition">
+		<put-attribute name="title" value="Student List" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/template/instituteHeader.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/institute/student_exam.jsp" />
+	</definition>
+	
+	<definition name="institute_start_exam" extends="institute.base.definition">
+		<put-attribute name="title" value="Student List" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/template/instituteHeader.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/institute/startExam.jsp" />
+	</definition>
+	
+	<definition name="institute_exam" extends="institute.base.definition">
+		<put-attribute name="title" value="Student List" />
+		<put-attribute name="header"
+			value="" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body" value="/WEB-INF/views/institute/exam.jsp" />
+	</definition>
+	
+	
+
+</tiles-definitions>

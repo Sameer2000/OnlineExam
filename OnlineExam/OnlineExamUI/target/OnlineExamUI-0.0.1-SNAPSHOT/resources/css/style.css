@@ -1,0 +1,305 @@
+body {
+	background: #E4F3BC;
+}
+
+td {
+	font: bold 11px Tahoma, Arial;
+	color: #5b614b;
+}
+
+td .width{
+	width: 19%;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #000000;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font: normal tahoma, arial 24.45px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+a {
+	font: bold 11px Tahoma, Arial;
+	color: #87ae26;
+	text-decoration: underline;
+}
+
+a:hover {
+	font: bold 11px Tahoma, Arial;
+	color: #87ae26;
+	text-decoration: none;
+}
+
+a.white-link-underline {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+.white-text {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.b1 {
+	font: 14px tahoma, Arial;
+	color: #fffea0;
+	text-decoration: none;
+	padding: 15px;
+	margin: 0px;
+}
+
+.p {
+	padding: 0 0 0 20px;
+}
+
+.p1 {
+	padding: 0 0 0 30px;
+}
+
+.p2 {
+	padding: 30px 50px 30px 30px;
+}
+
+.bg1 {
+	background: #000000 url(images/index_10.gif) top no-repeat;
+}
+
+.bg2 {
+	background: #000000 url(images/index_10.gif) top no-repeat;
+}
+
+.bord {
+	border: 1px solid #c5d85a;
+}
+
+.menu {
+	color: #8c247b;
+	vertical-align: top;
+	height: 35px;
+	padding: 10px 0 0 20px;
+}
+
+.menu a {
+	color: #8c247b;
+	font: bold 11px tahoma, Arial;
+	text-decoration: none;
+}
+
+.blye-text-underline {
+	color: #5a768d;
+	text-decoration: underline;
+}
+
+.blye-text-regular {
+	color: #5a768d;
+	text-decoration: none;
+}
+
+.yellow-text-regular {
+	color: #ffb400;
+	text-decoration: none;
+}
+
+.yellow-text-underline {
+	color: #ffb400;
+	text-decoration: underline;
+}
+
+.orange-text-regular {
+	color: #fe6b1d;
+	text-decoration: none;
+}
+
+.orange-text-underline {
+	color: #fe6b1d;
+	text-decoration: underline;
+}
+
+.broun-text-regular {
+	color: #de4e06;
+	text-decoration: none;
+}
+
+.broun-text-underline {
+	color: #de4e06;
+	text-decoration: underline;
+}
+
+.red-text-regular {
+	color: #8c247b;
+	text-decoration: none;
+}
+
+.red-text-underline {
+	color: #8c247b;
+	text-decoration: underline;
+}
+
+.black-text-regular {
+	color: #000000;
+	text-decoration: none;
+}
+
+.black-text-underline {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.gray-text-underline {
+	color: #7c7c7c;
+	text-decoration: underline;
+}
+
+.gray-text-regular {
+	color: #7c7c7c;
+	text-decoration: none;
+}
+
+.green-text {
+	color: #87ae26;
+	text-decoration: none;
+}
+
+.green-text-underline {
+	color: #87ae26;
+	text-decoration: underline;
+}
+
+#login{
+	margin-left: 230px;
+	margin-top: 35px;
+}
+
+.heading{
+	font-size: 22px;
+}
+
+.heading span{
+	color: #8fab49;
+}
+
+.logout {
+	color: white;
+	position: relative;
+	top: 50px;
+	left: -251px;
+}
+.logout:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.tableList{
+	border: 1px solid;	
+}
+
+.tableList thead{
+	border-bottom: 1px solid;
+}
+.tableData td{
+	font-weight: normal;
+}
+
+.pagination {
+	background-color: black;
+	color: white;
+	float: right;
+	margin-top: 145px;
+	padding: 4px 3px;
+	margin-bottom: -150px;
+}
+
+.pagination:hover{
+	color: white;
+}
+
+.admin_heading{
+	margin-top: -49px;
+	
+}
+
+.table_bottom{
+	margin-bottom: 70px;
+}
+
+#questions{
+	margin-top: 20px;
+	margin-left: -38px;
+}
+
+ul{
+	list-style: none;
+}
+.options{
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+	color: #5b614b;
+	font-family: sans-serif;
+}
+
+.option{
+	margin-bottom: 8px;
+}
+
+.left{
+	float: left;
+}
+
+.message{
+	margin-top: -81px;
+	margin-bottom: 66px;
+	font-size: 14px;
+	background-color: #8bc3d5;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 500;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background: rgba(0,0,0,0.6);
+}
+#map_canvas{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+#noData{
+	background-color: #f30e0e;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 200px;
+}
+#examUl{
+	/* display: inline-flex; */
+	list-style: none;
+}
+
+#examUl li{
+	margin-right: 45px;
+}
+
+.examQ{
+	position: relative;
+	top: -24px;
+	left: 85px;
+	margin-bottom: -15px;
+	bottom: 29px;
+}
+.eoption{
+	margin-left: 45px;
+}

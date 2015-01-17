@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="admin.base.definition" template="/WEB-INF/views/template/Layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/template/header.jsp" />
+		<put-attribute name="sidebar"
+			value="/WEB-INF/views/template/sidebar.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/template/footer.jsp" />
+	</definition>
+
+	<definition name="admin_login" extends="admin.base.definition">
+		<put-attribute name="title" value="Admin Login" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/admin_login.jsp" />
+	</definition>
+
+	<definition name="admin_home" extends="admin.base.definition">
+		<put-attribute name="title" value="Admin Home" />
+		<put-attribute name="header" value="/WEB-INF/views/template/admin_header.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/admin_home.jsp" />
+	</definition>
+	
+	<definition name="admin_exam_list" extends="admin.base.definition">
+		<put-attribute name="title" value="Admin Home" />
+		<put-attribute name="header" value="/WEB-INF/views/template/admin_header.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/exam_list.jsp" />
+	</definition>
+	
+	<definition name="admin_create_exam" extends="admin.base.definition">
+		<put-attribute name="title" value="Admin Home" />
+		<put-attribute name="header" value="/WEB-INF/views/template/admin_header.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/create_exam.jsp" />
+	</definition>
+	
+	<definition name="admin_add_questions" extends="admin.base.definition">
+		<put-attribute name="title" value="Admin Home" />
+		<put-attribute name="header" value="/WEB-INF/views/template/admin_header.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/add_questions.jsp" />
+	</definition>
+	
+	<definition name="admin_institute_registration" extends="admin.base.definition">
+		<put-attribute name="title" value="Admin Home" />
+		<put-attribute name="header" value="/WEB-INF/views/template/admin_header.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/Institute_Registration.jsp" />
+	</definition>
+	
+	<definition name="admin_queries" extends="admin.base.definition">
+		<put-attribute name="title" value="Admin Home" />
+		<put-attribute name="header" value="/WEB-INF/views/template/admin_header.jsp" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/viewQueries.jsp" />
+	</definition>
+	
+	
+	
+
+</tiles-definitions>
